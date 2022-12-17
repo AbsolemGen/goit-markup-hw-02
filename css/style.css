@@ -1,0 +1,120 @@
+body {
+  background-color: #ffffff;
+}
+.bgc-scnd {
+  background-color: #2e2f42;
+}
+
+/* logo */
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.logo1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
+/* site nav */
+.header-link {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: #2e2f42;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.adress {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+
+  color: #434455;
+}
+/* buttons */
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #4d5ae5;
+  color: #ffffff;
+}
+.hero-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+}
+/* hero */
+
+.hero-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.06;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.scnd-txt {
+  height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: #2e2f42;
+}
+/* footer */
+.footer {
+  background-color: #2e2f42;
+}
+/* цвeт p> #434455
+цвет h2> #2E2F42 */
+.footer-txt {
+  color: #e7e9fc;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.5;
+}
+.footer-logo {
+  color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}

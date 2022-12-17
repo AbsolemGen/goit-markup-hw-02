@@ -39,10 +39,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
-  /* SLATE */
-
   color: #434455;
+}
+.hover-nav:hover,
+.hover-nav:focus {
+  color: #4d5ae5;
 }
 /* buttons */
 .btn {

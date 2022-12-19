@@ -1,12 +1,22 @@
+:root {
+  --main-color: #2e2f42;
+  --blue-color: #4d5ae5;
+}
+
 body {
   background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  color: var(--main-color);
 }
+
 .bgc-scnd {
-  background-color: #2e2f42;
+  background-color: var(--main-color);
 }
 
 /* logo */
-.logo {
+.logo-main {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
@@ -14,36 +24,35 @@ body {
   line-height: 1.5;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--main-color);
 }
-.logo1 {
+.logo-blue {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
+  color: var(--blue-color);
 }
 /* site nav */
 .header-link {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  color: #2e2f42;
+  color: var(--main-color);
   font-weight: 600;
   font-size: 16px;
 }
 
 .adress {
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--main-color);
 }
 .hover-nav:hover,
 .hover-nav:focus {
-  color: #4d5ae5;
+  color: var(--blue-color);
 }
 /* buttons */
 .btn {
@@ -52,7 +61,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--blue-color);
   cursor: pointer;
 }
 
@@ -61,6 +70,8 @@ body {
   background-color: #4d5ae5;
   color: #ffffff;
 }
+
+/* hero */
 .hero-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -71,45 +82,38 @@ body {
   color: #ffffff;
   cursor: pointer;
 }
-/* hero */
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--main-color);
+}
 
 .hero-title {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.06;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-
+/* body */
 .title {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
-.scnd-txt {
-  height: 24px;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  color: #2e2f42;
-}
+
 /* footer */
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--main-color);
 }
 /* цвeт p> #434455
 цвет h2> #2E2F42 */
 .footer-txt {
   color: #e7e9fc;
-  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.5;
 }
-.footer-logo {
+.footer-logo-white {
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
 }

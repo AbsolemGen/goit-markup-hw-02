@@ -25,7 +25,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--main-color);
+  color: var(--title-color);
 }
 .logo-blue {
   font-family: "Raleway";
@@ -40,7 +40,7 @@ body {
 .header-link {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  color: var(--main-color);
+  color: var(--title-color);
   font-weight: 600;
   font-size: 16px;
 }

@@ -1,6 +1,7 @@
 :root {
-  --main-color: #2e2f42;
+  --main-color: #434455;
   --blue-color: #4d5ae5;
+  --title-color: #2e2f42;
 }
 
 body {
@@ -52,7 +53,7 @@ body {
 }
 .hover-nav:hover,
 .hover-nav:focus {
-  color: var(--blue-color);
+  color: #404bbf;
 }
 /* buttons */
 .btn {
@@ -61,8 +62,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--blue-color);
+  color: #4d5ae5;
   cursor: pointer;
+  background-color: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 
 .btn:hover,
@@ -81,10 +85,12 @@ body {
   background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
-  color: var(--main-color);
+  background-color: #404bbf;
 }
 
 .hero-title {
@@ -98,8 +104,16 @@ body {
 .title {
   font-weight: 700;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+.general-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
 }
 
 /* footer */
@@ -122,4 +136,16 @@ body {
 }
 .link {
   text-decoration: none;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }

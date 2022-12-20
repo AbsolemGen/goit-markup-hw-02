@@ -13,7 +13,7 @@ body {
 }
 
 .bgc-scnd {
-  background-color: var(--title-color);
+  background-color: #2e2f42;
 }
 .bgc-team {
   background-color: #f4f4fd;
@@ -120,9 +120,7 @@ body {
 }
 
 /* footer */
-.footer {
-  background-color: var(--main-color);
-}
+
 /* цвeт p> #434455
 цвет h2> #2E2F42 */
 .footer-txt {

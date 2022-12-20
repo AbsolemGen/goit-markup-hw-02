@@ -13,7 +13,10 @@ body {
 }
 
 .bgc-scnd {
-  background-color: var(--main-color);
+  background-color: var(--title-color);
+}
+.bgc-team {
+  background-color: #f4f4fd;
 }
 
 /* logo */

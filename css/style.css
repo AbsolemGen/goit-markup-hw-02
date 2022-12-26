@@ -1,3 +1,4 @@
+/* -------------------General------------------- */
 :root {
   --main-color: #434455;
   --blue-color: #4d5ae5;
@@ -19,7 +20,45 @@ body {
   background-color: #f4f4fd;
 }
 
-/* logo */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+.flex {
+  display: flex;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid red;
+  margin: 0 auto;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+/* -------------------NAVIGATION------------------- */
 .logo-main {
   font-family: "Raleway";
   font-style: normal;
@@ -29,6 +68,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-color);
+  padding-right: 77px;
+  margin: auto;
 }
 .logo-blue {
   font-family: "Raleway";
@@ -38,8 +79,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.03em;
   color: var(--blue-color);
+  margin: auto;
 }
-/* site nav */
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .header-link {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -48,6 +95,21 @@ body {
   font-size: 16px;
 }
 
+.header-list {
+  gap: 40px;
+  margin: auto 0;
+}
+
+.header-adress {
+  gap: 40px;
+  margin-left: 321px;
+}
+.text-box {
+  width: 360px;
+  height: 120px;
+  padding-top: 32px;
+  padding-left: 16px;
+}
 .adress {
   font-size: 16px;
   line-height: 1.5;
@@ -76,9 +138,32 @@ body {
 .btn:focus {
   background-color: #4d5ae5;
   color: #ffffff;
+  border: #404bbf;
+}
+.btn-list {
+  justify-content: center;
+  margin-top: 96px;
+  padding-bottom: 24px;
+}
+.main-item-header {
+  padding-bottom: 8px;
+}
+/* hero */
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.06;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-bottom: 48px;
+  padding-top: 192px;
 }
 
-/* hero */
+.hero {
+}
+
 .hero-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -90,43 +175,60 @@ body {
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  margin-left: 500px;
+  margin-bottom: 192px;
 }
+
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
 }
 
-.hero-title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.06;
-  letter-spacing: 0.02em;
-  color: #ffffff;
+.main-list {
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-/* body */
-.title {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--title-color);
+.main-item {
+  margin-top: 48px;
 }
-.general-title {
+
+/* ------------------titles-------------------- */
+
+.section-title {
   font-weight: 600;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--title-color);
 }
+.title {
+  /* name-title */
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
 
-/* footer */
+.main-item {
+  background: red;
+  border: 0.5px solid #f4f4fd;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 
-/* цвeт p> #434455
-цвет h2> #2E2F42 */
+/*------------------- footer----------------- */
+.footer-box {
+  margin-top: 120px;
+}
+.footer-link {
+  padding-top: 10px;
+}
 .footer-txt {
   color: #e7e9fc;
   font-size: 16px;
   line-height: 1.5;
+  padding-top: 16px;
+  padding-bottom: 100px;
 }
 .footer-logo-white {
   color: #f4f4fd;
@@ -138,15 +240,60 @@ body {
 .link {
   text-decoration: none;
 }
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
+.footer {
+  padding-top: 100px;
+}
+.options-item {
+}
+.options-text {
+  max-width: 270px;
+}
+.options-list {
+  gap: 24px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.what-doing-tittle {
+  padding-bottom: 72px;
+}
+
+.what-doing-list {
+  justify-content: center;
+  gap: 24px;
+}
+
+.what-doing-item {
+}
+.what-doing {
+  text-align: center;
+}
+
+.team-box {
+}
+
+.team-title {
+  padding-top: 120px;
+  padding-bottom: 72px;
+  text-align: center;
+}
+.title {
+}
+.section-title {
+}
+.team-list {
+  gap: 24px;
+}
+.list {
+}
+.team-item {
+}
+
+.team-item-title {
+  padding-bottom: 8px;
+}
+.team-item-box {
+  background-color: #ffffff;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  text-align: center;
 }
